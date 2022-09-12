@@ -1,0 +1,15 @@
+module.exports = {
+  // Application will be listening to this port number
+  appPort: ~appPort~,
+  // MongoDB Connection URL and Database Details
+  mongoDb: {
+    url: "mongodb+srv://~dbUser~:~dbPassword~@~dbHost~:~dbPort~/~dbName~?retryWrites=true&w=majority",
+    dbName: "~dbName~",
+    dbUser: "~dbUser~",
+    dbPassword: "~dbPassword~"
+  },
+  // Custom Log file path
+  logPath: "~customLogFilePath~",
+  // Key for encrypting sensitive data
+  encryptKey: '~encryptionKey~'
+};

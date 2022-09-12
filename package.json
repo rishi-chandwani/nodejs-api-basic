@@ -1,0 +1,24 @@
+{
+    "name": "nodejs-api-basic",
+    "version": "1.0.0",
+    "description": "Skeleton app for API NodeJS and MongoDB",
+    "main": "server.js",
+    "scripts": {
+      "dev": "nodemon server.js"
+    },
+    "keywords": [
+      "Skeleton",
+      "nodejs",
+      "mongodb"
+    ],
+    "author": "Rishi Chandwani",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.1",
+      "mongoose": "^6.6.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.19"
+    }
+  }
+  
